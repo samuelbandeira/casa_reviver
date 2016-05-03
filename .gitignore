@@ -22,3 +22,6 @@
 # Ignore Idea files
 /tmp
 /tmp/*
+
+# Ignore Spring files.
+/spring/*.pid
