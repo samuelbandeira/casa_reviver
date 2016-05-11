@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'person/new'
+
+  resources :people
 
   get 'users/new'
 

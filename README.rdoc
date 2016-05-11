@@ -1,28 +1,26 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Requirements
+------------
+Casa Reviver Application
 
 Things you may want to cover:
 
-* Ruby version
+# Ruby and Rails
+required Ruby 2.3.0 and Rails 4.6.0
 
-* System dependencies
+## System dependencies
 
-* Configuration
+Using paperclip gem. To run this must have imagemagick
 
-* Database creation
+If you're on Mac OS X, you'll want to run the following with [Homebrew] (http://www.brew.sh):
 
-* Database initialization
+    brew install imagemagick
 
-* How to run the test suite
+If you are dealing with pdf uploads or running the test suite, you'll also need
+to install GhostScript. On Mac OS X, you can also install that using Homebrew:
 
-* Services (job queues, cache servers, search engines, etc.)
+    brew install gs
 
-* Deployment instructions
+If you are on Ubuntu (or any Debian base Linux distribution), you'll want to run
+the following with apt-get:
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+    sudo apt-get install imagemagick -y
